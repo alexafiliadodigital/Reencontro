@@ -1,0 +1,850 @@
+body{
+  
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+   
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.logo h2{
+
+  color: #fff;
+  font-size: 22px;
+
+}
+
+.logo span{
+
+  color: #179991;
+
+
+}
+
+.section-1{
+
+max-width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 150px;
+
+
+}
+
+.area-title h3{
+   
+  color: #fff;
+  font-weight: normal;
+  
+  
+}
+
+.area-title a{
+
+  background-color: #2c2;
+  padding: 20px;
+  cursor: pointer;
+
+
+}
+
+.area-title a:hover{
+
+
+  background-color: blue;
+  transition: 3s auto;
+}
+
+.area-title h1{
+
+color:#fff ;
+font-size: 45px;
+line-height: 50px;
+margin-top: -16px;
+
+
+}
+
+
+
+.image1 img{
+
+
+   width: 380px;
+   height: auto;
+   margin-top:20px ;
+   margin-left: 60px;
+
+}
+
+
+/*AREA CARDS*/
+
+.section-cards{
+   
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #fff;
+
+  
+}
+
+.section-cards h2{
+
+  color: #2f2f2f2f;
+  text-transform: uppercase;
+
+}
+
+ .cards{
+
+
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+ 
+  background-color:#2c2;
+  width: 110px;
+  height: 100px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card:hover{
+
+  cursor: pointer;
+  background-color:blue;
+  transition: 0.2s all;
+}
+
+  
+
+
+
+figcaption{
+
+  margin-top: 10px;
+  color: red;
+
+
+}
+
+.card img{
+
+
+  width: 65px;
+}
+
+/*section-3*/
+
+
+.section-3{
+   max-width: 100%;
+   background-color: #1a7993;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 100px;
+   padding: 15px;
+   
+}
+
+.image2 img{
+
+  width: 280px;
+  height: 300px;
+  padding: 50px;
+
+
+}
+
+.area-title-2 h1{
+
+  margin-right: 20px;
+  color: #fff;
+  font-size: 20px;
+
+
+}
+
+.area-title-2 h3{
+
+  color: black;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.area-title-2 a{
+
+  display: inline-block;
+  background-color:#fff;
+  padding: 15px;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+
+
+}
+
+.area-title-2:hover{
+
+
+  transition: 0.5s auto;
+  color: #2c2;
+
+
+}
+
+/*AREA FORMULARIO*/
+
+.area-form{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+
+}
+
+.area-form h2{
+
+ color: #2c2;
+ text-align: center;
+
+
+}
+
+.formulario form{
+
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  
+
+
+}
+
+.formulario input{
+
+  margin-top: 10px;
+  padding-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+
+input[type="submit"]{
+ 
+  background-color: #1a7999;
+  text-transform: uppercase;
+  padding: 20px auto;
+  font-size: 20px;
+  cursor: pointer;
+  
+
+
+}
+
+input[type="submit"]:hover{
+
+  background-color: green;
+  transition: 2s auto;
+
+}
+
+
+footer{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.social h3{
+
+  color:aqua;
+  font-weight: normal;
+  margin-bottom: 100%;
+
+
+
+}
+.social img{
+  
+  width: 20px;
+  margin-left: 25px;
+  margin-bottom:300px;
+  cursor: pointer;
+  
+}
+
+
+@media(max-width:912px){
+
+
+   .logo h2{
+
+    color: #fff;
+    font-size: 22px;
+    margin-left: 10px;
+    
+  
+  }
+  
+  
+   .section-1{
+
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 50px;
+      
+      
+      }
+      
+    .area-title h3{
+        
+        font-size: 14px;
+        margin-top: 5px;
+        margin-right: auto;
+        color: #fff;
+        font-weight: normal;
+        
+        
+      }
+      
+    .area-title h1{
+
+        color:#fff ;
+        font-size: 15px;
+        margin-top: 20px;
+        
+        line-height: 20px;
+        
+        
+        
+        }
+        
+        .area-title a{
+
+          background-color: #2c2;
+          font-size: 10px;
+          padding: 8px;
+          cursor: pointer;
+        
+        }
+        
+        .image1 img{
+
+
+          width: 380px;
+          height: auto;
+          margin-top:20px ;
+          margin-left: 60px;
+       
+       }
+
+
+        .section-cards{
+   
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: #fff;
+      
+        
+      }
+      
+      .section-cards h2{
+        font-size: 14px;
+        font-weight: bold;
+        color:red;
+        text-transform: uppercase;
+        margin: 50px 50px;
+      
+      
+      }
+
+    .cards{
+
+
+        display: flex;
+        flex-direction: row;
+        
+      }
+      
+    .card{
+       
+        background-color: #2c2;
+        width: 10px;
+        height: 10px;
+        margin: 5px 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+        padding: 35px;
+        margin-bottom: 120px;
+      }
+      
+      .card img{
+
+
+        width: 10px;
+      }
+
+      figcaption{
+
+
+        font-size: 12px;
+        
+      }
+      
+      .section-3{
+        max-width: 100%;
+        background-color: #1a7993;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:100px;
+        padding: 15px;
+        
+     }
+     
+     .image2 img{
+     
+       width: 250px;
+       height: 250px;
+       padding: 50px;
+     
+     
+     }
+     
+     .area-title-2 h1{
+     
+       margin-left:50px;
+       color: #fff;
+       font-size: 14px;
+     
+     
+     }
+     
+     .area-title-2 h3{
+     
+       color: black;
+       font-size: 13px;
+       font-weight: normal;
+       margin-left: 50px;
+     }
+     
+     .area-title-2 a{
+     
+       display: inline-block;
+       background-color:#fff;
+       color: #2c2;
+       padding: 10px;
+       margin-left: 50px;
+       font-size: 12px;
+       font-weight: bold;
+       cursor: pointer;
+     
+     
+     }
+     
+     
+     footer{
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-bottom: 100px;
+    }
+
+
+
+     
+     .area-form h2{
+      
+      font-size: 14px;
+      color: #2c2;
+      text-align: center;
+     
+     
+     }
+
+    }
+
+    @media(width:540px){
+
+
+      .area-title h3{
+   
+        color:yellow;
+        font-weight: normal;
+        
+        
+      }
+      
+      .area-title a{
+
+        background-color:white;
+        font-size: 10px;
+        padding: 10px;
+        cursor: pointer;
+      
+      }
+      
+      .area-title a:hover{
+
+
+        background-color: aqua;
+        transition: 3s auto;
+      }
+    }
+
+    @media(max-width:540px){
+
+      
+      .image1 img{
+
+        display: none;
+      }
+
+      .image2 img{
+
+
+        display: none;
+      }
+
+
+
+
+
+    }
+
+    
+       @media(width:1024px){
+        
+        .image1 img{
+
+
+          width: 280px;
+          height: auto;
+          margin-top:20px ;
+          margin-right: 100px;
+          
+       
+       }
+       
+       .area-title h1{
+
+        color:red ;
+        font-size: 25px;
+        line-height: 50px;
+        margin-top: -16px;
+        
+        
+        }
+
+
+
+      }
+
+
+      @media(max-width:399px){
+
+        
+        
+        .section-cards h2{
+          
+          font-size: 20px;
+          color: red;
+          text-transform: uppercase;
+        
+        }
+        
+        
+        
+        
+         .card{
+ 
+          background-color:#2c2;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          width: 50px;
+          height: 50px;
+          padding: 0px;
+        }
+        
+        .section-cards{
+   
+        
+          margin-left: 0px;
+          
+        
+
+         }
+        
+        
+        .section-3{
+          
+          margin-left: 0px;
+          padding: 3px;
+          
+       }
+
+        figcaption{
+
+          font-size: 7px;
+        }
+
+        .area-title-2 h1,h3{
+
+
+          margin-right: 20px;
+        }
+        
+        .formulario form{
+
+          display: flex;
+          flex-direction: column;
+          width: 250px;
+          height: 250px;
+          
+        
+        
+        }
+
+
+
+
+
+        .formulario input{
+
+        
+          
+        
+          width: 100%;
+        
+          
+      }
+        
+        input[type="submit"]{
+          
+          width: 264px;
+          margin-top: 30px;
+          background-color: green;
+          font-size: 10px;
+          
+          
+      }
+        
+
+    }
+
+    @media(max-width:1009px){
+
+
+      .image1 img{
+
+
+        width: 380px;
+        height: auto;
+        margin-top:20px ;
+        margin-right: 30px;
+     
+     }
+     
+
+
+
+
+
+
+
+
+    }
+
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+
+
+
+     
+        
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+   
+    
+
+ 
+
+
+  
+  
+  
+  
+  
+
+    
+    
+      
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+    
+    
+      
+
+   
+   
+    
+
+
+    
+   
+
+     
+    
+    
+  
+
+  
+  
+  
+
+ 
+
+
+ 
+
+
+
+    
+    
+    
+
+    
+    
+
+     
+     
+    
+   
+
+
+     
+
+     
+
+
+          
+
+
+
